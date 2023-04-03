@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .forms import CustomerForm
 
 
 def store(request):
@@ -14,3 +15,9 @@ def cart(request):
 def checkout(request):
     context = {}
     return render(request, 'store/checkout.html', context)
+
+
+def login(request):
+    name = 'NameName'
+    form = CustomerForm(request.POST or None)
+    return render(request, 'store/login.html', locals())
