@@ -20,4 +20,5 @@ def checkout(request):
 def login(request):
     name = 'NameName'
     form = CustomerForm(request.POST or None)
+
     return render(request, 'store/login.html', locals())
