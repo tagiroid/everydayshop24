@@ -25,6 +25,5 @@ def login(request):
         print(form.cleaned_data)
         data = form.cleaned_data
         print(data["name"])
-
         new_form = form.save()
     return render(request, 'store/registration/login.html', locals())
