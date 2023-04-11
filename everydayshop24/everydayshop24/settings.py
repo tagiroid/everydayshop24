@@ -21,6 +21,8 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'store.apps.StoreConfig',
+    'products',
+    'orders',
 
     'django.contrib.admin',
     'django.contrib.auth',
