@@ -6,8 +6,8 @@ admin.autodiscover()
 
 urlpatterns = [
 
-    path('', views.store, name="store"),
-    path('registration/login/', views.login, name='login'),
-    path('cart/', views.cart, name="cart"),
-    path('checkout/', views.checkout, name="checkout")
+    # path('', views.store, name="store"),
+    # path('registration/login/', views.login, name='login'),
+    # path('cart/', views.cart, name="cart"),
+    # path('checkout/', views.checkout, name="checkout")
 ]
