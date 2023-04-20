@@ -21,7 +21,7 @@ class Order(models.Model):
     email = models.EmailField(blank=True, null=True, default=None)
     phone = models.CharField(max_length=48, blank=True, null=True, default=None)
     comment = models.TextField(blank=True, null=True, default=None)
-    status = models.ForeignKey(Status)
+    status = models.ForeignKey(Status, on_delete=models.CASCADE)
     created = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated = models.DateTimeField(auto_now_add=False, auto_now=True)
 
@@ -34,8 +34,8 @@ class Order(models.Model):
 
 
 class ProductInOrder(models.Model):
-    order = models.ForeignKey(Order, blank=True, null=True, default=None)
-    product = models.ForeignKey(Product, blank=True, null=True, default=None)
+    order = models.ForeignKey(Order, blank=True, null=True, default=None, on_delete=models.CASCADE)
+    product = models.ForeignKey(Product, blank=True, null=True, default=None, on_delete=models.CASCADE)
     is_active = models.BooleanField(default=True)
     created = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated = models.DateTimeField(auto_now_add=False, auto_now=True)
