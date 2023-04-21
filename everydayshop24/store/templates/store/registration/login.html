@@ -1,5 +1,10 @@
 {% extends 'store/main.html' %}
 {% load static %}
+
+{% block title %}
+Log In
+{% endblock title %}
+
 {% block content %}
 
 <form method="post" action="{% url 'login' %}">
