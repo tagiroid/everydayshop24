@@ -4,6 +4,7 @@ from django.contrib import admin
 
 admin.autodiscover()
 
+
 urlpatterns = [
 
     # path('', views.store, name="store"),
