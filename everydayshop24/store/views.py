@@ -1,9 +1,10 @@
 from django.shortcuts import render
 from .forms import CustomerForm
-
+from .models import *
 
 def store(request):
-    context = {}
+    products = Product.objects.all()
+    context = {'products': products}
     return render(request, 'store/store.html', context)
 
 
@@ -26,4 +27,4 @@ def login(request):
         data = form.cleaned_data
         print(data["name"])
         new_form = form.save()
-    return render(request, 'store/registration/login.html', locals())
+    return render(request, 'store/authentication/login.html', locals())
