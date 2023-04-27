@@ -67,10 +67,12 @@
 			</div>
 		</div>
 </div>
+
 <script type="text/javascript">
 
 	var shipping = '{{order.shipping}}'
 	var total = '{{order.get_cart_total|floatformat:2}}'
+
 	if (shipping == 'False'){
 		document.getElementById('shipping-info').innerHTML = ''
 	}
@@ -115,11 +117,11 @@
 		}
 
 		if (shipping != 'False'){
-			shippingInfo.address = for.address.value
-			shippingInfo.city = for.city.value
-			shippingInfo.state = for.state.value
-			shippingInfo.zipcode = for.zipcode.value
-			shippingInfo.country = for.country.value
+			shippingInfo.address = form.address.value
+			shippingInfo.city = form.city.value
+			shippingInfo.state = form.state.value
+			shippingInfo.zipcode = form.zipcode.value
+			shippingInfo.country = form.country.value
 		}
 
 		if (user == 'AnonymousUser'){
@@ -135,20 +137,20 @@
             'X-CSRFToken': csrftoken,
         },
         body:JSON.stringify({'form': userFormData, 'shipping': shippingInfo})
+    	})
+
+    	.then((responce) => responce.json()) 
+
+    	.then((data) =>{
+        	console.log('Success:', data);
+        	alert('Transaction completed');
+
+        	window.location.href = '{% url 'store' %}'
     })
 
-    .then((responce) => responce.json()) 
-
-    .then((data) =>{
-        console.log('Success:', data);
-        alert('Transaction completed');
-
-        window.location.href = '{% url 'store' %}'
-    }) 
-
-
-		console.log('ShippingInfo:', shippingInfo)
+    	console.log('ShippingInfo:', shippingInfo)
 		console.log('UserInfo', userFormData)
+
 	}
 </script>
 {% endblock content %}
