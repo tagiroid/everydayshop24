@@ -8,7 +8,7 @@ for (i = 0; i < updateBtns.length; i++){
 
         console.log('USER:', user)
         if (user === 'AnonymousUser') {
-            console.log('Not loggen in')
+            addCookieItem(productId, action)
         }
         else {
             updateUserOrder(productId, action)
@@ -25,6 +25,17 @@ function addCookieItem(productId, action) {
             cart[productId]['quantity'] += 1
         }
     }
+    if (action == 'remove') {
+        cart[productId]['quantity'] -= 1
+
+        if (cart[productId]['quantity'] <= 0){
+            console.log('Remove Item')
+            delete cart[productId]
+        }
+    }
+    console.log('Cart:', cart)
+    document.cookie = 'cart=' + JSON.stringify(cart) + ";domain=;path=/"
+
 }
 
 function updateUserOrder(productId, action) {
