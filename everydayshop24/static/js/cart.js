@@ -7,7 +7,7 @@ for (i = 0; i < updateBtns.length; i++){
         console.log('productId:', productId, 'Action:', action)
 
         console.log('USER:', user)
-        if (user === 'AnonymousUser'){
+        if (user === 'AnonymousUser') {
             console.log('Not loggen in')
         }
         else {
@@ -16,8 +16,16 @@ for (i = 0; i < updateBtns.length; i++){
     })
 }
 
-function addCookieItem(productId, action)
+function addCookieItem(productId, action) {
     console.log('User is not authenticated')
+    if (action == 'add') {
+        if (cart[productId] == undefined) {
+            cart[productId] = {'quantity':1}
+        }else{
+            cart[productId]['quantity'] += 1
+        }
+    }
+}
 
 function updateUserOrder(productId, action) {
     console.log('User is logged in, sending data...')
@@ -32,6 +40,7 @@ function updateUserOrder(productId, action) {
         },
         body:JSON.stringify({'productId': productId, 'action': action})
     })
+
 
     .then((responce) =>{
         return responce.json()
