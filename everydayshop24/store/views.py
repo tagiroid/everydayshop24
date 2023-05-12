@@ -4,6 +4,7 @@ import json
 import datetime
 from .forms import CustomerForm
 from .models import *
+from .utils import cockieCart
 
 
 def store(request):
@@ -55,10 +56,10 @@ def cart(request):
                         'name': product.name,
                         'price': product.price,
                         'imageURL': product.imageURL
-                    },
+                                },
                     'quantity': cart[i]['quantity'],
                     'get_total': total,
-                }
+                        }
 
                 items.append(item)
 
