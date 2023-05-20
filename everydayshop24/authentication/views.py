@@ -1,8 +1,10 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.contrib.auth import authenticate, login, logout
+from django.contrib import messages
 
 
-def login(request):
-    return render(request, 'store/authentication/login.html', locals())
+def login_user(request):
+    return render(request, 'authentication/login.html', {})
 
 
 def register(request):
