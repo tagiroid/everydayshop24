@@ -81,6 +81,15 @@
 
      <div class="container">
             <br>
+
+            {% if messages %}
+                {% for message in messages %}
+                {{ message }}
+                {% endfor %}
+            {% endif %}
+
+            <br>
+            
             {% block content %}
 
 
