@@ -78,6 +78,7 @@ def processOrder(request):
     if total == float(order.get_cart_total):
         order.complete = True
     order.save()
+
     if order.shipping == True:
         ShippingAddress.objects.create(
             customer=customer,
