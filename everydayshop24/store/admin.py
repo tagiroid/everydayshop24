@@ -1,6 +1,7 @@
 from django.contrib import admin
 from .models import *
 
+# this section shows categories in admin site
 
 admin.site.register(Customer)
 admin.site.register(Product)
