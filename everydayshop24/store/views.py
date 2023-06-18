@@ -5,6 +5,7 @@ import datetime
 from .models import *
 from .utils import cartData, guestOrder
 
+# this is for your views
 
 def store(request):
     data = cartData(request)
