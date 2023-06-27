@@ -70,7 +70,6 @@ def guestOrder(request, data):
         customer=customer,
         complete=False,
     )
-
     for item in items:
         product = Product.objects.get(id=item['product']['id'])
         orderItem = OrderItem.objects.create(
