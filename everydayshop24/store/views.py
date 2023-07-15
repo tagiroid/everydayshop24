@@ -5,7 +5,6 @@ import datetime
 from .models import *
 from .utils import cartData, guestOrder
 
-# comment for comment
 
 def store(request):
     data = cartData(request)
