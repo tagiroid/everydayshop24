@@ -27,7 +27,6 @@ function addCookieItem(productId, action) {
     }
     if (action == 'remove') {
         cart[productId]['quantity'] -= 1
-
         if (cart[productId]['quantity'] <= 0){
             console.log('Remove Item')
             delete cart[productId]
@@ -40,9 +39,7 @@ function addCookieItem(productId, action) {
 
 function updateUserOrder(productId, action) {
     console.log('User is logged in, sending data...')
-
     var url = '/update_item/'
-
     fetch(url, {
         method:'POST',
         headers:{
