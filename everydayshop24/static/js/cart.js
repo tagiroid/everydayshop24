@@ -17,7 +17,6 @@ for (i = 0; i < updateBtns.length; i++){
     })
 }
 
-
 function addCookieItem(productId, action) {
     console.log('User is not authenticated')
     if (action == 'add') {
