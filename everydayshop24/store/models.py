@@ -68,6 +68,7 @@ class OrderItem(models.Model):
     date_added = models.DateTimeField(auto_now_add=True)
     
     @property
+
     def get_total(self):
         total = self.product.price * self.quantity
         return total
