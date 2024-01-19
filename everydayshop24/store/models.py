@@ -39,7 +39,6 @@ class Order(models.Model):
     def __str__(self):
         return str(self.id)
 
-
     @property
     def shipping(self):
         shipping = False
