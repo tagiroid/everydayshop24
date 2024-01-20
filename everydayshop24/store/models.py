@@ -40,6 +40,7 @@ class Order(models.Model):
         return str(self.id)
 
     @property
+
     def shipping(self):
         shipping = False
         orderitems = self.orderitem_set.all()
