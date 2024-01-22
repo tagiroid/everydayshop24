@@ -21,7 +21,6 @@ class Product(models.Model):
         return self.name
 
     @property
-
     def imageURL(self):
         try:
             url = self.image.url
