@@ -48,6 +48,7 @@ ROOT_URLCONF = 'everydayshop24.urls'
 
 TEMPLATES = [
     {
+
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [],
         'APP_DIRS': True,
@@ -60,6 +61,7 @@ TEMPLATES = [
             ],
         },
     },
+
 ]
 
 WSGI_APPLICATION = 'everydayshop24.wsgi.application'
