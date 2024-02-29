@@ -32,7 +32,6 @@ class Product(models.Model):
 
 
 class Order(models.Model):
-
     customer = models.ForeignKey(Customer, null=True, blank=True, on_delete=models.SET_NULL)
     date_ordered = models.DateTimeField(auto_now_add=True)
     complete = models.BooleanField(default=False)
