@@ -110,7 +110,6 @@ STATICFILES_DIRS = [
 ]
 
 MEDIA_URL = '/products/'
-
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/products')
 
 # Default primary key field type
