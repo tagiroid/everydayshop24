@@ -38,9 +38,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-
 ROOT_URLCONF = 'everydayshop24.urls'
-
 
 TEMPLATES = [
     {
