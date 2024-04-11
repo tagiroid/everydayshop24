@@ -5,6 +5,7 @@ from .models import *
 # of course it is
 
 def cookieCart(request):
+
     try:
         cart = json.loads(request.COOKIES['cart'])
     except:
