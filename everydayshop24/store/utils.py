@@ -16,6 +16,7 @@ def cookieCart(request):
     cartItems = order['get_cart_items']
 
     for i in cart:
+
         try:
             cartItems += cart[i]['quantity']
             product = Product.objects.get(id=i)
@@ -36,6 +37,7 @@ def cookieCart(request):
 
             if product.digital == False:
                 order['shipping'] = True
+
         except:
             pass
     return {'cartItems': cartItems, 'order': order, 'items': items}
