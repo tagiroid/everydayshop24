@@ -60,6 +60,7 @@ def cartData(request):
 
 
 def guestOrder(request, data):
+
     print('User is not logged in')
     print('COOKIES:', request.COOKIES)
 
