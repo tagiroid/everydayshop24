@@ -12,3 +12,4 @@ admin.site.register(ShippingAddress)
 # and this comment
 # dont miss this one
 # and new one
+# friday
