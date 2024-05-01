@@ -14,3 +14,4 @@ admin.site.register(ShippingAddress)
 # and new one
 # friday
 # and saturday
+# and wednesday 1 may
