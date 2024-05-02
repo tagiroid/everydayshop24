@@ -9,9 +9,3 @@ admin.site.register(OrderItem)
 admin.site.register(ShippingAddress)
 
 #delete this comment
-# and this comment
-# dont miss this one
-# and new one
-# friday
-# and saturday
-# and wednesday 1 may
