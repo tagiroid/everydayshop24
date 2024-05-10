@@ -13,3 +13,4 @@ admin.site.register(ShippingAddress)
 # arent you tired of this?
 # no
 # but maybe
+# making useless comments is my passion
