@@ -14,3 +14,4 @@ admin.site.register(ShippingAddress)
 # no
 # but maybe
 # making useless comments is my passion
+#cmon
