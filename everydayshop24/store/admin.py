@@ -8,7 +8,8 @@ admin.site.register(Order)
 admin.site.register(OrderItem)
 admin.site.register(ShippingAddress)
 
-#delete this comment
-#scrooge mcduck
+# delete this comment
+# scrooge mcduck
 # and pions?
 # may again
+# art school day
