@@ -13,3 +13,4 @@ admin.site.register(ShippingAddress)
 # and pions?
 # may again
 # art school day
+# thursday the 23th of may
