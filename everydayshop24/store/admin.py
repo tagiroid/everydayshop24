@@ -14,3 +14,4 @@ admin.site.register(ShippingAddress)
 # may again
 # art school day
 # thursday the 23th of may
+# new comment
