@@ -15,3 +15,4 @@ admin.site.register(ShippingAddress)
 # art school day
 # thursday the 23th of may
 # new comment
+# monday commit
