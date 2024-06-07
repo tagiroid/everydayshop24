@@ -14,3 +14,4 @@ admin.site.register(ShippingAddress)
 # tuesday
 # still tuesday
 # tattoo day 17
+# friday
