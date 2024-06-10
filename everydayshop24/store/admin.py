@@ -9,11 +9,3 @@ admin.site.register(OrderItem)
 admin.site.register(ShippingAddress)
 
 # delete this comment
-# ucl finals
-# real wins
-# tuesday
-# still tuesday
-# tattoo day 17
-# friday
-# weekend
-# tomorrow
