@@ -11,3 +11,4 @@ admin.site.register(ShippingAddress)
 # delete this comment
 # and add this
 # the longest day of  the year
+# weekend
