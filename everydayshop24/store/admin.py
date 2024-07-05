@@ -10,3 +10,4 @@ admin.site.register(ShippingAddress)
 
 # delete this comment
 # ty ne ver slezam
+# friday party time
