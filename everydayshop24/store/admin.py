@@ -11,3 +11,4 @@ admin.site.register(ShippingAddress)
 # delete this comment
 # stop logictics
 # send voennik
+# meet saturday
