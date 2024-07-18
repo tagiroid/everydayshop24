@@ -12,3 +12,4 @@ admin.site.register(ShippingAddress)
 # start yandex tomorrow
 # no, tomorrow
 # we started today
+# second day
