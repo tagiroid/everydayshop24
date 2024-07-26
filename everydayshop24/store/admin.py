@@ -9,6 +9,3 @@ admin.site.register(OrderItem)
 admin.site.register(ShippingAddress)
 
 # delete this comment
-# okletsgo
-# school21 meeting
-# shlouses day
