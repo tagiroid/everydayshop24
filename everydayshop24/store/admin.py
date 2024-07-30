@@ -11,3 +11,4 @@ admin.site.register(ShippingAddress)
 # delete this comment
 # Но я тысячи раз обрывал провода
 # i tried to practice and i fail
+# so i tried again and fail again
