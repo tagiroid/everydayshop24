@@ -12,3 +12,4 @@ admin.site.register(ShippingAddress)
 # Но я тысячи раз обрывал провода
 # i tried to practice and i fail
 # so i tried again and fail again
+# i did something today
