@@ -9,3 +9,4 @@ admin.site.register(OrderItem)
 admin.site.register(ShippingAddress)
 
 # delete this comment
+# first day at work i have earned some money
