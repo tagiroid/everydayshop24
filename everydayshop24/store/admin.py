@@ -11,3 +11,4 @@ admin.site.register(ShippingAddress)
 # delete this comment
 # first day at work i have earned some money
 # and second and dayoff tomorrow
+# it was a good day
