@@ -12,3 +12,4 @@ admin.site.register(ShippingAddress)
 # first day at work i have earned some money
 # and second and dayoff tomorrow
 # it was a good day
+# youtube is down day
