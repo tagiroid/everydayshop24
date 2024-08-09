@@ -13,3 +13,4 @@ admin.site.register(ShippingAddress)
 # and second and dayoff tomorrow
 # it was a good day
 # youtube is down day
+# what a lovely day
