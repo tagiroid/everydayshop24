@@ -21,3 +21,4 @@ admin.site.register(ShippingAddress)
 # one day off
 # lets go to work tomorrow
 # tomorrow is monday and im very tired
+# i sold one shkaf
