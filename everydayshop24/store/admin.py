@@ -10,3 +10,4 @@ admin.site.register(ShippingAddress)
 
 # delete this comment
 # cmon notebook
+# new week tomorrow
