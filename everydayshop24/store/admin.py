@@ -12,3 +12,4 @@ admin.site.register(ShippingAddress)
 # cmon notebook
 # new week tomorrow
 # tomorrow im going to village
+# potato gone wild
