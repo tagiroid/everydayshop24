@@ -13,3 +13,4 @@ admin.site.register(ShippingAddress)
 # new week tomorrow
 # tomorrow im going to village
 # potato gone wild
+# friday tomorrow
