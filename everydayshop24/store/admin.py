@@ -9,9 +9,3 @@ admin.site.register(OrderItem)
 admin.site.register(ShippingAddress)
 
 # delete this comment
-# cmon notebook
-# new week tomorrow
-# tomorrow im going to village
-# potato gone wild
-# friday tomorrow
-# give fuel give fire give me that what i desire
