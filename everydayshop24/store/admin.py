@@ -10,4 +10,3 @@ admin.site.register(ShippingAddress)
 
 # delete this comment
 # lets take a look at that flat
-# lets have fun for two days straight
