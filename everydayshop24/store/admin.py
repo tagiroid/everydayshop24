@@ -8,7 +8,4 @@ admin.site.register(Order)
 admin.site.register(OrderItem)
 admin.site.register(ShippingAddress)
 
-# delete this comment
-# lets take a look at that flat
-# im sick
-# im really sick
+# do not delete this comment
