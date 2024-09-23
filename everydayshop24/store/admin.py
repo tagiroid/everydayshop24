@@ -14,3 +14,4 @@ admin.site.register(ShippingAddress)
 # and two days off now wow
 # i put the light
 # one more week is over
+# one day off tomorrow sad
