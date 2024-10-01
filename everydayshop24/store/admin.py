@@ -10,3 +10,4 @@ admin.site.register(ShippingAddress)
 
 # do not delete this comment
 # on thursday i will do a tattoo
+# the day after tomorrow
