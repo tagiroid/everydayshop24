@@ -12,3 +12,4 @@ admin.site.register(ShippingAddress)
 # on thursday i will do a tattoo
 # the day after tomorrow
 # no tattoo tomorrow, sad
+# practicing tattoo
