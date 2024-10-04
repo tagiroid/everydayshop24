@@ -13,3 +13,4 @@ admin.site.register(ShippingAddress)
 # the day after tomorrow
 # no tattoo tomorrow, sad
 # practicing tattoo
+# no tattoo practice today
