@@ -14,3 +14,4 @@ admin.site.register(ShippingAddress)
 # no tattoo tomorrow, sad
 # practicing tattoo
 # no tattoo practice today
+# studying new skills in yandex
