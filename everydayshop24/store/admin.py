@@ -17,3 +17,4 @@ admin.site.register(ShippingAddress)
 # studying new skills in yandex
 # afraid of new skills
 # households
+# and routine
