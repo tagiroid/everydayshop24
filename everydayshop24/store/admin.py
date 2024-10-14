@@ -9,12 +9,3 @@ admin.site.register(OrderItem)
 admin.site.register(ShippingAddress)
 
 # do not delete this comment
-# on thursday i will do a tattoo
-# the day after tomorrow
-# no tattoo tomorrow, sad
-# practicing tattoo
-# no tattoo practice today
-# studying new skills in yandex
-# afraid of new skills
-# households
-# and routine
