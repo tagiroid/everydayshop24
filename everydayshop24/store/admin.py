@@ -12,3 +12,4 @@ admin.site.register(ShippingAddress)
 # tomorrow is my first day at techsupport
 # that day was tough
 # and that was tough
+# wedding day
