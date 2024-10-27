@@ -12,3 +12,4 @@ admin.site.register(ShippingAddress)
 # three more dayoffs
 # nikah tomorrow
 # nikah today
+# new week
